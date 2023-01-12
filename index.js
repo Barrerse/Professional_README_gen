@@ -7,6 +7,8 @@ const util = require("util");
 
 // TODO: Create an array of questions for user input
 const questions = [
+
+    // Question to generate the title
     {
         type: 'input',
         name: 'title',
@@ -20,6 +22,7 @@ const questions = [
             }
         }
     }
+
 ];
 
 // TODO: Create a function to write README file
