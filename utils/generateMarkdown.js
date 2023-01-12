@@ -53,15 +53,15 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## [Description]
+  ## Description
 
   ${data.description}
 
-  ## [Installation]
+  ## Installation
 
   ${data.installation}
 
-  ## [Usage]
+  ## Usage
 
   ${data.usage}
   
@@ -71,15 +71,15 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
   
-  ## [Contributing]
+  ## Contributing
   
   ${data.contributing}
 
-  ## [Tests]
+  ## Tests
 
   ${data.test}
 
-  ## [Questions]
+  ## Questions
   For anu questions contact me using the following links:
   [GitHub](https://github.com/${data.githubUsername})
   [Email: ${data.email}](mailto:${data.email})

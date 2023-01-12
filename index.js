@@ -16,7 +16,7 @@ const questions = [
             if(titleInput){
                 return true;
             } else {
-                console.log('Please enter a title!'):
+                console.log('Please enter a title!');
                 return false; 
             }
         }
@@ -30,7 +30,7 @@ const questions = [
         if(descriptionInput){
             return true;
          } else {
-            console.log('Please enter a description!'):
+            console.log('Please enter a description!');
             return false; 
          }
         }
@@ -41,17 +41,30 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err => {
-        if (err) {
-          return console.log(err);
-        }
-      
-        console.log("Success! Your README.md file has been generated")
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./newREADME/generated-README.md', fileContent, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
     });
-}
+};
 
 // TODO: Create a function to initialize app
+const init = () => {
+
+    return inquirer.prompt(questions)
+    .then(readmeData => {
+        return readmeData;
+    })
+}
 init()
 .then(readmeData => {
     console.log(readmeData);
