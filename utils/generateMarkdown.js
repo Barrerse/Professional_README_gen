@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'no license') {
   return `
-  ## [License](#table-of-contents)
+  ## License
   The application is covered under the following license:
   ${renderLicenseLink(license)}
     `;
@@ -65,9 +65,6 @@ function generateMarkdown(data) {
 
   ${data.usage}
   
-  To see a visual example on how to use the README generator pelase watch the video below:
-  
-  [Check out this video](https://agea.github.io/tutorial.md/)
 
   ${renderLicenseSection(data.license)}
   
@@ -80,8 +77,10 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  For anu questions contact me using the following links:
+  For any questions contact me using the following links:
+
   [GitHub](https://github.com/${data.githubUsername})
+  
   [Email: ${data.email}](mailto:${data.email})
 `;
 }

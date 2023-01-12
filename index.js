@@ -59,7 +59,7 @@ const questions = [
     {
         type: 'confirm',
         name: 'confirmContributers',
-        message: 'Will theree be contributers to this application?',
+        message: 'Will there be contributers to this application?',
         default: true
     },
     // Function of what happens if you put yes, or else, for contributions
@@ -85,8 +85,8 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Provide instructions and examples of how the code is tested',
-    }
+        message: 'Provide instructions and examples of how the code is tested:',
+    },
 
     // Input for email and github user 
 

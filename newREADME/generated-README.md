@@ -1,9 +1,9 @@
 
   
-  # test
+  # README Generator 
 
   
-  ![badge](https://img.shields.io/badge/license-undefined-blue)
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
     
 
   ## Table of Contents 
@@ -17,15 +17,15 @@
 
   ## Description
 
-  test
+  This application uses node.js to generate a README.md file. A basic format, located in the utils folder of this repository, has the main framework on how the README file will look. Then once the index.js file is ran with node.js a series of questions will prompt up. For more information about node.js check out [nodejs.org documentation section](https://nodejs.org/en/docs/) 
 
   ## Installation
 
-  undefined
+  To install the application: Clone this repository either using the HTTPS method located in the <> Code section of this repository or downloading ZIP in the same section. 
 
   ## Usage
 
-  undefined
+  This application is used to create a professional README.md file by following the steps outlined here: 1) Download or clone the reposisotry. 2) Initialize the application using Visual Studio Code. 3) Open the termial on the main folder. 4) Initialize a project with package.json by typing 'npm init -y' on t io
   
   To see a visual example on how to use the README generator pelase watch the video below:
   
@@ -35,7 +35,7 @@
   ## [License](#table-of-contents)
   The application is covered under the following license:
   
-  [undefined](https://choosealicense.com/licenses/undefined)
+  [MIT](https://choosealicense.com/licenses/MIT)
     
     
   
@@ -45,9 +45,9 @@
 
   ## Tests
 
-  undefined
+  No testing is used for this code
 
   ## Questions
   For anu questions contact me using the following links:
-  [GitHub](https://github.com/undefined)
-  [Email: undefined](mailto:undefined)
+  [GitHub](https://github.com/BARRERSE)
+  [Email: sebastianbarrera@live.com](mailto:sebastianbarrera@live.com)
