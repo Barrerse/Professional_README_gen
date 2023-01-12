@@ -21,9 +21,22 @@ const questions = [
             }
         }
     },
+
     {
-        
-    }
+      type: 'input',
+      name: 'description', 
+      message: 'Breifly describe your application',
+      validate: descriptionInput => {
+        if(descriptionInput){
+            return true;
+         } else {
+            console.log('Please enter a description!'):
+            return false; 
+         }
+        }
+    },
+
+
 
 ];
 
