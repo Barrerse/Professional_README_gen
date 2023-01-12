@@ -17,7 +17,7 @@
 
   ## Description
 
-  This application uses node.js to generate a README.md file. A basic format, located in the utils folder of this repository, has the main framework on how the README file will look. Then once the index.js file is ran with node.js a series of questions will prompt up. For more information about node.js check out [nodejs.org documentation section](https://nodejs.org/en/docs/) 
+  This application uses node.js to generate a README.md file. A basic format, located in the utils folder of this repository, has the main framework on how the README file will look. Using node to run the index.js will cause a series of questions to prompt up. These questions are created using the inquirer npm. For more information about node.js check out nodejs.org [documentation](https://nodejs.org/en/docs/). For more information about inquirer check out inquirer [documentation](https://www.npmjs.com/package/inquirer)
 
   ## Installation
 

@@ -53,7 +53,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license will you use for your project?',
-        choices: ['MIT', 'GPLv2', 'Apache', 'no license']
+        choices: ['mit', 'GPLv2', 'Apache', 'no license']
     },
     // Yes or no question if the user had contributions to his project, using the confirm type
     {
