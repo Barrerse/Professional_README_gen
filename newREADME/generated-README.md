@@ -1,6 +1,6 @@
 
   
-  # Test
+  # test
 
   
   ![badge](https://img.shields.io/badge/license-undefined-blue)
@@ -15,15 +15,15 @@
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## [Description]
+  ## Description
 
-  Test
+  test
 
-  ## [Installation]
+  ## Installation
 
   undefined
 
-  ## [Usage]
+  ## Usage
 
   undefined
   
@@ -39,15 +39,15 @@
     
     
   
-  ## [Contributing]
+  ## Contributing
   
   undefined
 
-  ## [Tests]
+  ## Tests
 
   undefined
 
-  ## [Questions]
+  ## Questions
   For anu questions contact me using the following links:
   [GitHub](https://github.com/undefined)
   [Email: undefined](mailto:undefined)

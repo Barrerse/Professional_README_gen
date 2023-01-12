@@ -12,28 +12,28 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'Enter the title of your project',
-        validate: titleInput => {
-            if(titleInput){
-                return true;
-            } else {
-                console.log('Please enter a title!');
-                return false; 
-            }
-        }
+        // validate: titleInput => {
+        //     if(titleInput){
+        //         return true;
+        //     } else {
+        //         console.log('Please enter a title!');
+        //         return false; 
+        //     }
+        // }
     },
-
+   // Question to generate the description 
     {
       type: 'input',
       name: 'description', 
       message: 'Breifly describe your application',
-      validate: descriptionInput => {
-        if(descriptionInput){
-            return true;
-         } else {
-            console.log('Please enter a description!');
-            return false; 
-         }
-        }
+    //   validate: descriptionInput => {
+    //     if(descriptionInput){
+    //         return true;
+    //      } else {
+    //         console.log('Please enter a description!');
+    //         return false; 
+    //      }
+    //     }
     },
 
 
@@ -80,5 +80,5 @@ init()
     console.log(err);
 })
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
