@@ -51,13 +51,15 @@
   
   ## Contributing
   
-  undefined
+  No contributions.
 
   ## Tests
 
-  No testing is used for this code
+  No testing is used for this code.
 
   ## Questions
   For anu questions contact me using the following links:
+  
   [GitHub](https://github.com/BARRERSE)
+
   [Email: sebastianbarrera@live.com](mailto:sebastianbarrera@live.com)

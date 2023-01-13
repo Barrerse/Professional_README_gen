@@ -71,7 +71,8 @@ const questions = [
             if (confirmContributers) {
                 return true;
             } else {
-                return false;
+                message: 'No contrinutions';
+                // return false;
             }
         },
         validate: contributerInput => {
