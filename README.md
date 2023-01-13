@@ -73,7 +73,7 @@
   
   To see a visual example on how to use the README generator pelase watch the video below:
   
-  [Check out this video](https://agea.github.io/tutorial.md/)
+  [Check an example video](https://youtu.be/hD0CSJbL1lU)
 
   
   ## [License](#table-of-contents)
